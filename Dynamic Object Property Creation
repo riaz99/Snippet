@@ -1,0 +1,15 @@
+let score = 900;
+let wrath = “angry”;
+
+ley myObj = {
+      user: ‘John’,
+      score: 200;
+      angry: 99;
+      highScore(){
+            console.log(‘your score is ’ + this.score);
+       }
+}
+
+console.log(myObj.score);
+console.log(myObj.highScore());
+console.log(myObj[wrath]);
